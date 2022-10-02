@@ -1,0 +1,120 @@
+/* Сперва меняем ориентацию на альбомную */
+@page {
+	size: landscape;
+	margin-bottom: 0cm;
+	margin-top: 0cm;
+}
+body {
+	background-color: #ffffff!important;
+}
+.noprint, .hidden-print, footer,.nicescroll-rails, .promo, .form, .nice-toggle,.yaCopyright{
+	display: none!important;
+}
+.table__row{
+	page-break-inside: avoid;
+}
+.search-path{
+	background-color: #ffffff;
+	color: black;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+h1{
+	font-size: 22px;
+	color: black;
+}
+.search-path__title{
+	margin-bottom: 0px !important;
+}
+.map_area{
+	text-align: center;
+}
+
+.breadcrumbs,.read_full_area, .tab__controls, .vk_comments, .action-buttons{
+	display: none;
+}
+
+.carriers__column{
+	float:left!important;
+}
+
+.wrapper, .map{
+	box-shadow: none;
+}
+.printOnlyBlock{
+	display: block;
+}
+
+.shedule, .shedule__item{
+	width: 100%;
+}
+.shedule__item{
+	display: block;
+	border-bottom-width: 1px;
+	page-break-inside: avoid;
+}
+.shedule__item:after {
+	content: none;
+}
+
+.shedule__item .shw {
+	display: block;
+}
+
+.shedule__item .shedule__title:before {
+	content: '-';
+}
+.shedule__hours:before{
+	content: none;
+}
+.shedule__hours{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+.sidebar,.sidebar_clone{
+	display: none!important;
+	width: 0;
+}
+.site{
+	/*padding: 92px 0 0 0;*/
+	padding: 12px 0 0 0;
+}
+.wrapper {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+
+
+.site__container{
+	width:100%;
+}
+
+.print-col-half {
+	width: calc(50% - 12px) !important;
+}
+
+.popup{
+	display: none;
+}
+.header{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.logo{
+	position: relative;
+	display: inline-block;
+	width: 70px;
+}
+
+
+.page-break-inside {
+	page-break-before: always;
+}
+.map__revert{
+	display: none;
+}
+
+
